@@ -52,7 +52,7 @@ $pet_result = mysqli_query($conn, $pet_sql);
                                         echo '<h1>'.$id.'</h1>';
                                     }
                                     else{
-                                        echo 'No Data found';
+                                        echo '<h1>0</h1>';
                                     };
                                 ?>
                                    <p>Total Pet</p>
@@ -72,7 +72,7 @@ $pet_result = mysqli_query($conn, $pet_sql);
                                         echo '<h1>'.$id.'</h1>';
                                     }
                                     else{
-                                        echo 'No Data found';
+                                        echo '<h1>0</h1>';
                                     };
                                 ?>
                                    <p>Total User</p>
@@ -93,7 +93,7 @@ $pet_result = mysqli_query($conn, $pet_sql);
                                         echo '<h1>'.$id.'</h1>';
                                     }
                                     else{
-                                        echo 'No Data found';
+                                        echo '<h1>0</h1>';
                                     };
                                 ?>
                                    <p>Totol Pet Approved</p>
@@ -114,7 +114,7 @@ $pet_result = mysqli_query($conn, $pet_sql);
                                         echo '<h1>'.$id.'</h1>';
                                     }
                                     else{
-                                        echo 'No Data found';
+                                        echo '<h1>0</h1>';
                                     };
                                 ?>
                                    <p>Totol Claimed Pet</p>
