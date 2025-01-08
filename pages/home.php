@@ -92,21 +92,21 @@ $result = mysqli_query($conn, $query);
            <div class="why-bullet">
             <div class="why-blob">
                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#B4D6CD" d="M47.4,-14.9C53,2,43.4,24.3,26.1,37.1C8.8,49.9,-16.2,53.3,-36.1,40.9C-56,28.5,-70.9,0.3,-64,-18.2C-57.1,-36.7,-28.6,-45.6,-3.8,-44.4C20.9,-43.1,41.7,-31.7,47.4,-14.9Z" transform="translate(100 100)" />
+                    <path fill="#6f4f37" d="M47.4,-14.9C53,2,43.4,24.3,26.1,37.1C8.8,49.9,-16.2,53.3,-36.1,40.9C-56,28.5,-70.9,0.3,-64,-18.2C-57.1,-36.7,-28.6,-45.6,-3.8,-44.4C20.9,-43.1,41.7,-31.7,47.4,-14.9Z" transform="translate(100 100)" />
                     <image href="image/save.png" x="55" y="70" height="70px" width="70px" clip-path="url(image/save.jpg)" />
                 </svg> 
                 <p>Save Lives: Give a pet a second chance at happiness.</p>
             </div>
             <div class="why-blob">
                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#B4D6CD" d="M47.4,-14.9C53,2,43.4,24.3,26.1,37.1C8.8,49.9,-16.2,53.3,-36.1,40.9C-56,28.5,-70.9,0.3,-64,-18.2C-57.1,-36.7,-28.6,-45.6,-3.8,-44.4C20.9,-43.1,41.7,-31.7,47.4,-14.9Z" transform="translate(100 100)" />
+                    <path fill="#6f4f37" d="M47.4,-14.9C53,2,43.4,24.3,26.1,37.1C8.8,49.9,-16.2,53.3,-36.1,40.9C-56,28.5,-70.9,0.3,-64,-18.2C-57.1,-36.7,-28.6,-45.6,-3.8,-44.4C20.9,-43.1,41.7,-31.7,47.4,-14.9Z" transform="translate(100 100)" />
                     <image href="image/match.png" x="55" y="70" height="70px" width="70px" clip-path="url(image/save.jpg)" />
                 </svg> 
                 <p>Find the Right Match: Choose from a wide variety of animals that suit your lifestyle.</p>
             </div>
             <div class="why-blob">
                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#B4D6CD" d="M47.4,-14.9C53,2,43.4,24.3,26.1,37.1C8.8,49.9,-16.2,53.3,-36.1,40.9C-56,28.5,-70.9,0.3,-64,-18.2C-57.1,-36.7,-28.6,-45.6,-3.8,-44.4C20.9,-43.1,41.7,-31.7,47.4,-14.9Z" transform="translate(100 100)" />
+                    <path fill="#6f4f37" d="M47.4,-14.9C53,2,43.4,24.3,26.1,37.1C8.8,49.9,-16.2,53.3,-36.1,40.9C-56,28.5,-70.9,0.3,-64,-18.2C-57.1,-36.7,-28.6,-45.6,-3.8,-44.4C20.9,-43.1,41.7,-31.7,47.4,-14.9Z" transform="translate(100 100)" />
                     <image href="image/save.png" x="55" y="70" height="70px" width="70px" clip-path="url(image/save.jpg)" />
                 </svg> 
                 <p>Support a Good Cause: Help reduce overcrowding in shelters.</p>

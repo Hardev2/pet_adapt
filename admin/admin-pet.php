@@ -115,7 +115,7 @@ mysqli_close($conn);
                                 <input type="text" name="pet_breed" value="<?= isset($editPet) ? $editPet['pet_breed']: ''; ?>" placeholder="Enter pet breed" required><br>
                                 
                                 <label for="pet_age">Age</label>
-                                <input type="text" name="pet_age"  value="<?= isset($editPet) ? $editPet['pet_age']: ''; ?>" placeholder="Enter pet age" required><br>
+                                <input type="number" name="pet_age"  value="<?= isset($editPet) ? $editPet['pet_age']: ''; ?>" placeholder="Enter pet age" required><br>
                                 <label for="pet_condition">Condition</label>
                                 <input type="text" name="pet_condition" value="<?= isset($editPet) ? $editPet['pet_condition']:''; ?>" placeholder="Enter pet condition" required><br>
                                 <label for="pet_description">Description</label>
