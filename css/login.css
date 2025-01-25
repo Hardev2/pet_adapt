@@ -1,0 +1,18 @@
+.form-container h6 {
+  font-size: 1.1rem;
+  color: white;
+  text-transform: uppercase;
+}
+.form-container .form-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form-row .form-col select {
+  width: 183px;
+  padding: 8px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}

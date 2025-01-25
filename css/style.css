@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
   --pri-colo: #6f4f37;
@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
@@ -33,7 +33,7 @@ header {
   padding: 10px;
 }
 .header-logo h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   color: #d6c2a1;
@@ -51,7 +51,7 @@ header {
   color: #d6c2a1;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.9rem;
 }
 
@@ -80,7 +80,7 @@ header {
 
 .bg-text {
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14rem;
   font-weight: 800;
   letter-spacing: 2rem;
@@ -105,7 +105,7 @@ header {
 }
 .col-1 h2 {
   font-size: 3.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: right;
   font-weight: 800;
   color: #6f4f37;
@@ -430,7 +430,7 @@ form input {
   border: 1px solid black;
 }
 
-form input[type="checkbox"] {
+form input[type='checkbox'] {
   position: absolute;
   left: 300px;
   width: 30px;
@@ -442,7 +442,7 @@ form textarea {
   width: 100%;
   border-radius: 3px;
 }
-form input[type="submit"] {
+form input[type='submit'] {
   background-color: #694f8e;
   font-size: 0.9rem;
   font-weight: 600;
@@ -572,7 +572,7 @@ footer {
   text-transform: uppercase;
 }
 
-.pet-details .adapt-button button[type="submit"] {
+.pet-details .adapt-button button[type='submit'] {
   background-color: var(--pri-colo);
   cursor: pointer;
   transition: 0.3s;
@@ -590,7 +590,7 @@ footer {
   color: white;
 }
 
-.adapt-button button[type="submit"]:hover {
+.adapt-button button[type='submit']:hover {
   background-color: var(--pri-colo);
   letter-spacing: 5px;
   transform: scale(0.8);
@@ -610,7 +610,7 @@ footer {
   color: grey;
 }
 
-.request-form-container form button[type="submit"] {
+.request-form-container form button[type='submit'] {
   background-color: var(--pri-colo);
   text-align: center;
   width: 100%;
@@ -625,7 +625,7 @@ footer {
   margin-top: 20px;
 }
 
-.request-form-container form button[type="submit"]:hover {
+.request-form-container form button[type='submit']:hover {
   background-color: #ff4e88;
   letter-spacing: 5px;
 }
@@ -711,9 +711,38 @@ footer {
 .user-home-dashboard {
   padding-top: 100px;
   padding-bottom: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 100%;
 }
 
-.pet-view-description .adapt-button button[type="submit"] {
+.pet-waiting-list-wrapper {
+  position: relative;
+  right: 100px;
+}
+
+.pet-tutorial-video {
+  margin-left: 30px;
+  height: auto;
+}
+
+.pet-tutorial-video h1,
+.pet-tutorial-video h3 {
+  color: var(--pri-colo);
+}
+
+.pet-tutorial-video h3 {
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.pet-tutorial-video ul {
+  margin-left: 30px;
+}
+
+.pet-view-description .adapt-button button[type='submit'] {
   background-color: var(--pri-colo);
   cursor: pointer;
   transition: 0.3s;
@@ -747,8 +776,8 @@ footer {
 
 .log-container form {
   background: rgba(34, 33, 33, 0.6);
-  height: 60vh;
-  width: 350px;
+  height: auto;
+  width: auto;
   padding: 10px;
   border-radius: 10px;
 }
@@ -758,6 +787,7 @@ footer {
 
 .log-container form input {
   border: none;
+  width: 280px;
 }
 .log-container form button {
   width: 100%;
@@ -769,6 +799,7 @@ footer {
   font-size: 1rem;
   font-weight: 800;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .log-container form .register-link {
